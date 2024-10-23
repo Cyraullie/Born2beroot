@@ -22,7 +22,7 @@ There is a [configuration guide](https://github.com/mcombeau/Born2beroot/blob/ma
 ## Installing Debian
 1. Select Debian ISO image as startup disk.
 2. When Debian starts, choose ```Install```, not graphcal install.
-3. Choose language, geographical & keyboard layout settings.
+3. Choose language, geographical & keyboard layout settings (to have the same keyboard of 42 use american english).
 4. Hostname must be ```your_login42``` (ex. mcombeau42).
 5. Domain name leave empty.
 6. Choose strong root password & confirm.
