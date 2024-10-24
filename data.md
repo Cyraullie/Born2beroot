@@ -1,8 +1,8 @@
 # username and password
 root
-Cyr@ullol1
+Cyraullol1
 
 cgoldens
-Cyr@ullol24
+Cyraullol24
 
 Encrzption kez : School42

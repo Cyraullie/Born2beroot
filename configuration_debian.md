@@ -2,8 +2,6 @@
 
 This guide covers the installation of sudo, UFW, SSH, Password Policy, monitoring.sh. There is also a fix for the common ERROR: Failed to send host log message.
 
-There is a [VM installation guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/installation_debian.md) and a [bonus guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md), as well.
-
 ## Sudo Setup
 
 Log in as root:
@@ -222,6 +220,7 @@ Check the following commands to figure out how to write the script:
 * ```/proc/net/sockstat``` : TCP information
 * ```hostname``` : hostname and IP information
 * ```ip link show``` / ```ip address``` : IP and MAC information
+* ```sudo log```
 
 Remember to give the script execution permissions, i.e.:
 ```bash
@@ -271,6 +270,3 @@ Then use the following command (replace ```centos_serv``` with your machine name
 * MacOS: ```shasum centos_serv.vdi```
 
 And save the signature to a file named ```signature.txt```.
-
----
-Made by mcombeau: mcombeau@student.42.fr | LinkedIn: [mcombeau](https://www.linkedin.com/in/mia-combeau-86653420b/) | Website: [codequoi.com](https://www.codequoi.com)
